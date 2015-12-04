@@ -1,0 +1,19 @@
+/* line 1, ../compass/sass/style.scss */
+h1 {
+  text-align: center;
+}
+
+/* line 4, ../compass/sass/style.scss */
+.myProfiles {
+  text-align: center;
+}
+/* line 6, ../compass/sass/style.scss */
+.myProfiles a {
+  margin: 0 10px;
+}
+
+/* line 10, ../compass/sass/style.scss */
+a {
+  text-decoration: none;
+  color: black;
+}
