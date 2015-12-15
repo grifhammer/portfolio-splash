@@ -10,17 +10,17 @@
 
 </head>
 <body>
-    <h1>Griffin Hammer's Portfolio</h1>
+    <h1 class="wow zoomIn">Griffin Hammer's Portfolio</h1>
     <div id="my-profiles">
-        <a href="https://github.com/grifhammer" class="faa-pulse animated-hover faa-fast"><i class="animated fadeInUpBig fa fa-github fa-4x "></i></a>
-        <a href="https://www.linkedin.com/in/griffinhammer" class="faa-pulse animated-hover faa-fast"><i class="animated fadeInUpBig fa fa-linkedin-square fa fa-4x"></i></a>
+        <a href="https://github.com/grifhammer"><i class="wow fadeInLeft fa fa-github fa-4x "></i></a>
+        <a href="https://www.linkedin.com/in/griffinhammer" class="faa-pulse wow-hover faa-fast"><i class="wow fadeInRight fa fa-linkedin-square fa fa-4x"></i></a>
     </div>
     <h2>This site is a work in progress...</h2>
-    <div id="my-projects" class="container">
-        <div class="row">
+    <div id="my-projects" class="container wow fadeIn">
+        <div class="row" >
             <h2 class="col-lg-12">My Projects</h2>
             <ul>
-                <div class="item col-lg-3">
+                <div class="item col-lg-3 wow fadeInLeftBig">
                     <a href="https://buffornerf.herokuapp.com">
                         <li class="btn btn-primary">
                             <h4>Node Voting App</h4>
@@ -28,7 +28,7 @@
                         </li>
                     </a>
                 </div>
-                <div class="item col-lg-3">
+                <div class="item col-lg-3 wow fadeInLeft">
                     <a href="./team-OG">
                         <li class="btn btn-primary">
                             <h4>Team OG Fan Site</h4>
@@ -36,7 +36,7 @@
                         </li>
                     </a>
                 </div>
-                <div class="item col-lg-3">
+                <div class="item col-lg-3 wow fadeInRight">
                     <a href="./Angular-Google-Maps-Project">
                         <li class="btn btn-primary">
                             <h4>Google Maps</h4>
@@ -44,7 +44,7 @@
                         </li>
                     </a>
                 </div>
-                <div class="item col-lg-3">
+                <div class="item col-lg-3 wow fadeInRightBig">
                     <a href="./blackjack">
                         <li class="btn btn-primary">
                             <h4>Blackjack</h4>
@@ -52,7 +52,7 @@
                         </li>
                     </a>
                 </div>
-                <div class="item col-lg-3">
+                <div class="item col-lg-3 wow fadeInLeftBig">
                     <a href="./houses">
                         <li class="btn btn-primary">
                             <h4>Fancy Houses</h4>
@@ -60,7 +60,7 @@
                         </li>
                     </a>
                 </div>
-                <div class="item col-lg-3">
+                <div class="item col-lg-3 wow fadeInLeft">
                     <a href="./isotope-plugin">
                         <li class="btn btn-primary">
                             <h4>Isotope</h4>
@@ -68,7 +68,7 @@
                         </li>
                     </a>
                 </div>
-                <div class="item col-lg-3">
+                <div class="item col-lg-3 wow fadeInRight">
                     <a href="./tictactoe">
                         <li class="btn btn-primary">
                             <h4>Tic Tac Toe</h4>
@@ -76,7 +76,7 @@
                         </li>
                     </a>
                 </div>
-                <div class="item col-lg-3">
+                <div class="item col-lg-3 wow fadeInRightBig">
                     <a href="./wireframe">
                         <li class="btn btn-primary">
                             <h4>First Wireframe</h4>
@@ -88,7 +88,7 @@
         </div>
     </div>
 
-    <div id="contact-wrap">
+    <div id="contact-wrap" class="wow fadeInUp" >
         <h3>Contact Me</h3>
         <a href="tel:13364552913">
             <div class="btn btn-default contact">
@@ -113,6 +113,9 @@
     </div>
 
     <script type="text/javascript" href="assets/js/bootstrap.min.js"></script>
-    <!-- // <script src="assets/js/wow.min.js"></script> -->
+    <script type="text/javascript" src="assets/js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
